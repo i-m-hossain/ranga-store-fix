@@ -21,7 +21,7 @@ const showProducts = (products) => {
         <p><span class="category">Category: </span> ${product.category}</p>
         <div> 
           <span> <span class="text-bold"> Rating: </span> ${product.rating.rate}</span>
-          <span> <span class="text-bold"> Rating count: </span> ${product.rating.count}</span>
+          <span> <span class="text-bold"> Total Rating: </span> ${product.rating.count}</span>
         </div>
         <h2>Price:<span class="price"> $ ${product.price}</span></h2>
         <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn-bg-cart ">Add to cart</button>
